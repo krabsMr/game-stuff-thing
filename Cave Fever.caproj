@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
@@ -47,7 +48,7 @@
     <object-folder>
         <object-type name="TiledBackground" sid="3206956448522659">
             <plugin id="TiledBg" />
-            <texture />
+            <texture original-source="P:\Pixel Art\tile map.png" />
         </object-type>
         <object-type name="WebStorage" sid="1510269620771624">
             <plugin id="WebStorage" />
@@ -73,13 +74,20 @@
         <object-type name="Text" sid="2985603725420557">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Tilemap" sid="187259931876840">
+            <plugin id="Tilemap" />
+            <texture original-source="P:\Pixel Art\tile map.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>L_Level_1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>E_Level_1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
