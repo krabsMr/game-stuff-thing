@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>L_Hub</name>
+    <sid>913572677504878</sid>
+    <event-sheet>E_Hub</event-sheet>
+    <size>
+        <width>640</width>
+        <height>384</height>
+    </size>
+    <margins>
+        <horizontal>5000</horizontal>
+        <vertical>5000</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="Tilelmap_Collisions" sid="235641043100259">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Tilemap" sid="127709441536526">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Tilemap" uid="9">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <tile-width>32</tile-width>
+                        <tile-height>32</tile-height>
+                        <tile-x-offset>0</tile-x-offset>
+                        <tile-y-offset>0</tile-y-offset>
+                        <tile-x-spacing>0</tile-x-spacing>
+                        <tile-y-spacing>0</tile-y-spacing>
+                        <seamless-mode>On</seamless-mode>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>640</width>
+                        <height>384</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <opacity>1</opacity>
+                    </world>
+                    <tilemap-data>
+                        <width>20</width>
+                        <height>12</height>
+                        <max-width>20</max-width>
+                        <max-height>12</max-height>
+                        <data>39,38,38,38,38,38,38,38,38,38,38,38,15,15,15,15,15,45,60,85,18,18,107,122,15,15,1,16,31,46,61,85,18,18,108,123,39,38,4,17,32,20,18,18,18,18,110,38,39,38,39,39,39,20,18,18,18,18,110,38,39,38,185,20,20,20,18,18,18,18,107,122,39,38,184,94,18,18,18,19,18,18,108,123,39,38,184,80,80,80,19,19,19,18,110,39,39,38,184,19,19,19,19,19,19,18,110,39,39,38,184,19,19,19,19,19,19,18,107,122,39,38,184,19,19,19,19,19,19,80,108,123,39,38,184,19,19,19,19,19,19,80,110,39,39,39,186,80,80,80,80,80,80,80,110,39,39,38,186,70,80,80,80,72,72,72,107,122,39,38,184,70,80,80,72,72,72,72,108,123,34,49,21,80,80,72,72,72,72,72,110,38,35,50,65,80,72,72,72,72,72,72,110,38,39,51,66,80,72,72,72,72,72,72,107,122,39,52,67,140,140,140,140,140,140,140,108,123,39,38,38,38,38,38,38,38,38,38,38,38</data>
+                    </tilemap-data>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Player" sid="862563050647245">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="PAUSE" sid="328892548545144">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+    </layers>
+    <nonworld-instances />
+    <effects />
+</c2layout>

@@ -79,14 +79,21 @@
             <texture original-source="P:\Pixel Art\tile map.png" />
             <tiles />
         </object-type>
+        <object-type name="Tilemap2" sid="118111704580129">
+            <plugin id="Tilemap" />
+            <texture original-source="P:\Pixel Art\tile map.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>L_Title_Screen.xml</layout>
+        <layout>L_Hub.xml</layout>
         <layout>L_Level_1.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>E_Title_Screen.xml</event-sheet>
+        <event-sheet>E_Hub.xml</event-sheet>
         <event-sheet>E_Level_1.xml</event-sheet>
     </event-folder>
     <global-instances>
