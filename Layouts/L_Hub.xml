@@ -47,7 +47,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Tilemap" uid="9">
+                <instance type="Hub_TileMap" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>32</tile-width>

@@ -74,12 +74,17 @@
         <object-type name="Text" sid="2985603725420557">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Tilemap" sid="187259931876840">
+        <object-type name="Hub_TileMap" sid="187259931876840">
             <plugin id="Tilemap" />
             <texture original-source="P:\Pixel Art\tile map.png" />
             <tiles />
         </object-type>
-        <object-type name="Tilemap2" sid="118111704580129">
+        <object-type name="L1_TileMap" sid="118111704580129">
+            <plugin id="Tilemap" />
+            <texture original-source="P:\Pixel Art\tile map.png" />
+            <tiles />
+        </object-type>
+        <object-type name="L2_TileMap" sid="680612887392408">
             <plugin id="Tilemap" />
             <texture original-source="P:\Pixel Art\tile map.png" />
             <tiles />
@@ -90,11 +95,13 @@
         <layout>L_Title_Screen.xml</layout>
         <layout>L_Hub.xml</layout>
         <layout>L_Level_1.xml</layout>
+        <layout>L_Level_2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>E_Title_Screen.xml</event-sheet>
         <event-sheet>E_Hub.xml</event-sheet>
         <event-sheet>E_Level_1.xml</event-sheet>
+        <event-sheet>E_Level_2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
