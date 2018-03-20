@@ -89,6 +89,11 @@
             <texture original-source="P:\Pixel Art\tile map.png" />
             <tiles />
         </object-type>
+        <object-type name="L3_TileMap" sid="268364059749545">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -96,12 +101,14 @@
         <layout>L_Hub.xml</layout>
         <layout>L_Level_1.xml</layout>
         <layout>L_Level_2.xml</layout>
+        <layout>L_Level_3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>E_Title_Screen.xml</event-sheet>
         <event-sheet>E_Hub.xml</event-sheet>
         <event-sheet>E_Level_1.xml</event-sheet>
         <event-sheet>E_Level_2.xml</event-sheet>
+        <event-sheet>E_Level_3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
