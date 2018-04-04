@@ -91,7 +91,7 @@
         </object-type>
         <object-type name="L3_TileMap" sid="268364059749545">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\wjohnson\Downloads\tile map.png" />
+            <texture original-source="P:\Pixel Art\tile map 3,4,5.png" />
             <tiles />
         </object-type>
     </object-folder>
