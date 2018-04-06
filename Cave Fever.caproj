@@ -76,7 +76,7 @@
         </object-type>
         <object-type name="Hub_TileMap" sid="187259931876840">
             <plugin id="Tilemap" />
-            <texture original-source="P:\Pixel Art\tile map.png" />
+            <texture original-source="P:\Pixel Art\tile map 1,2.png" />
             <tiles />
         </object-type>
         <object-type name="L1_TileMap" sid="118111704580129">
