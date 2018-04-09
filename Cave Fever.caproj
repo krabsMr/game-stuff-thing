@@ -81,12 +81,12 @@
         </object-type>
         <object-type name="L1_TileMap" sid="118111704580129">
             <plugin id="Tilemap" />
-            <texture original-source="P:\Pixel Art\tile map.png" />
+            <texture original-source="P:\Pixel Art\tile map 1,2.png" />
             <tiles />
         </object-type>
         <object-type name="L2_TileMap" sid="680612887392408">
             <plugin id="Tilemap" />
-            <texture original-source="P:\Pixel Art\tile map.png" />
+            <texture original-source="P:\Pixel Art\tile map 1,2.png" />
             <tiles />
         </object-type>
         <object-type name="L3_TileMap" sid="268364059749545">
