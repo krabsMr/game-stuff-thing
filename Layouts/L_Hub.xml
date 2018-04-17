@@ -28,7 +28,28 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="TiledBackground3" uid="15">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-1.860717773</x>
+                        <y>0.083435059</y>
+                        <z>0</z>
+                        <width>640.530700684</width>
+                        <height>383.469329834</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="Tilemap" sid="127709441536526">
@@ -58,6 +79,13 @@
                         <tile-y-spacing>0</tile-y-spacing>
                         <seamless-mode>On</seamless-mode>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -76,7 +104,7 @@
                         <height>12</height>
                         <max-width>20</max-width>
                         <max-height>12</max-height>
-                        <data>40,40,40,40,40,40,40,40,40,40,40,40,30,45,60,75,19,19,19,85,18,18,107,122,31,46,61,76,19,19,19,85,18,18,108,123,40,40,48,77,19,20,18,18,18,18,110,40,40,40,48,27,19,20,18,18,18,18,110,40,40,40,48,20,20,20,18,18,18,18,107,122,40,40,48,94,18,18,18,19,18,18,108,123,40,40,48,80,80,80,19,19,19,18,110,40,40,40,48,19,19,19,19,19,19,18,110,40,40,40,48,19,86,86,86,19,19,18,107,122,40,40,48,86,86,19,86,19,19,80,108,123,40,40,48,86,86,86,86,86,86,80,110,40,40,40,48,80,86,86,86,72,86,80,110,40,40,40,48,70,86,86,86,86,72,72,107,122,40,40,48,70,86,86,86,86,72,72,108,123,34,49,21,86,86,86,86,72,72,72,110,40,35,50,65,86,86,86,72,72,72,72,110,40,40,51,66,86,72,72,72,72,72,72,107,122,40,52,67,86,86,140,140,140,140,140,108,123,40,40,40,40,40,40,40,40,40,40,40,40</data>
+                        <data>40,40,40,40,40,40,40,40,40,40,40,40,30,45,60,75,-1,-1,-1,-1,-1,-1,107,122,31,46,61,76,-1,-1,-1,-1,-1,-1,108,123,40,40,48,77,-1,-1,-1,-1,-1,-1,109,40,40,40,48,27,-1,-1,-1,-1,-1,-1,109,40,40,40,48,-1,-1,-1,-1,-1,-1,-1,107,122,40,40,48,-1,-1,-1,-1,-1,-1,-1,108,123,40,40,48,-1,-1,-1,-1,-1,-1,-1,109,40,40,40,48,-1,-1,-1,-1,-1,-1,-1,109,40,40,40,48,-1,-1,-1,-1,-1,-1,-1,107,122,40,40,48,-1,-1,-1,-1,-1,-1,-1,108,123,40,40,48,-1,-1,-1,-1,-1,-1,-1,109,40,40,40,48,-1,-1,-1,-1,-1,-1,-1,109,40,40,40,48,-1,-1,-1,-1,-1,-1,-1,107,122,40,40,48,-1,-1,-1,-1,-1,-1,-1,108,123,34,49,-1,-1,-1,-1,-1,-1,-1,-1,109,40,35,50,65,-1,-1,-1,-1,-1,-1,-1,109,40,40,51,66,-1,-1,-1,-1,-1,-1,-1,107,122,40,52,67,-1,-1,-1,-1,-1,-1,-1,108,123,40,40,40,40,40,40,40,40,40,40,40,40</data>
                     </tilemap-data>
                 </instance>
             </instances>
@@ -97,7 +125,48 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="Sprite" uid="14">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>360 degree (smooth)</set-angle>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>209.884735107</x>
+                        <y>116.696624756</y>
+                        <z>0</z>
+                        <width>16.374145508</width>
+                        <height>45.849159241</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="PAUSE" sid="328892548545144">

@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
@@ -21,7 +22,10 @@
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -76,8 +80,88 @@
         </object-type>
         <object-type name="Hub_TileMap" sid="187259931876840">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="102851351170989">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="P:\Pixel Art\tile map 1,2.png" />
-            <tiles />
+            <tiles>
+                <tile id="27">
+                    <collision-poly>
+                        <point x="0.203125" y="0.421875" />
+                        <point x="0.316406" y="0.03125" />
+                        <point x="0.71875" y="0.0390625" />
+                        <point x="0.851563" y="0.492188" />
+                        <point x="0.765625" y="0.875" />
+                        <point x="0.296875" y="0.914063" />
+                    </collision-poly>
+                </tile>
+                <tile id="75">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.242188" y="0" />
+                        <point x="0.21875" y="0.984375" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="76">
+                    <collision-poly>
+                        <point x="0.273438" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.539063" />
+                        <point x="0.3125" y="0.53125" />
+                    </collision-poly>
+                </tile>
+                <tile id="77">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.851563" y="0" />
+                        <point x="0.804688" y="0.5" />
+                        <point x="0" y="0.507813" />
+                    </collision-poly>
+                </tile>
+                <tile id="107">
+                    <collision-poly>
+                        <point x="0" y="0.304688" />
+                        <point x="1" y="0.25" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="108">
+                    <collision-poly>
+                        <point x="0" y="0.265625" />
+                        <point x="1" y="0.273438" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="109">
+                    <collision-poly>
+                        <point x="0" y="0.304688" />
+                        <point x="1" y="0.296875" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="122">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.429688" y="0" />
+                        <point x="0.390625" y="0.609375" />
+                        <point x="0" y="0.609375" />
+                    </collision-poly>
+                </tile>
+                <tile id="123">
+                    <collision-poly>
+                        <point x="0.578125" y="0.015625" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.65625" />
+                        <point x="0.578125" y="0.609375" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
         <object-type name="L1_TileMap" sid="118111704580129">
             <plugin id="Tilemap" />
@@ -98,6 +182,30 @@
             <plugin id="Tilemap" />
             <texture original-source="P:\Pixel Art\tile map 3,4.png" />
             <tiles />
+        </object-type>
+        <object-type name="Sprite" sid="387415266455925">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="959729448294659">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="156556355592358">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961099016484364" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="231914328798058">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground3" sid="980287867078020">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
