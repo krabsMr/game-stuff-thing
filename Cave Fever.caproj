@@ -165,8 +165,136 @@
         </object-type>
         <object-type name="L1_TileMap" sid="118111704580129">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="259092401252246">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="P:\Pixel Art\tile map 1,2.png" />
-            <tiles />
+            <tiles>
+                <tile id="27">
+                    <collision-poly>
+                        <point x="0.34375" y="0.0390625" />
+                        <point x="0.757813" y="0.03125" />
+                        <point x="0.8125" y="0.515625" />
+                        <point x="0.75" y="0.882813" />
+                        <point x="0.328125" y="0.898438" />
+                        <point x="0.210938" y="0.484375" />
+                    </collision-poly>
+                </tile>
+                <tile id="76">
+                    <collision-poly>
+                        <point x="0.289063" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.492188" />
+                        <point x="0.335938" y="0.476563" />
+                    </collision-poly>
+                </tile>
+                <tile id="77">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.8125" y="0" />
+                        <point x="0.820313" y="0.53125" />
+                        <point x="0" y="0.507813" />
+                    </collision-poly>
+                </tile>
+                <tile id="82">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.53125" y="0" />
+                    </collision-poly>
+                </tile>
+                <tile id="83">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.59375" y="0" />
+                        <point x="0.554688" y="0" />
+                    </collision-poly>
+                </tile>
+                <tile id="97">
+                    <collision-poly>
+                        <point x="0.59375" y="0.976563" />
+                        <point x="0.890625" y="1" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="98">
+                    <collision-poly>
+                        <point x="0.6875" y="1" />
+                        <point x="0.171875" y="1" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="106">
+                    <collision-poly>
+                        <point x="0" y="0.296875" />
+                        <point x="0.992188" y="0.28125" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="107">
+                    <collision-poly>
+                        <point x="0" y="0.328125" />
+                        <point x="0.328125" y="0.296875" />
+                        <point x="0.257813" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="108">
+                    <collision-poly>
+                        <point x="0.59375" y="0.3125" />
+                        <point x="1" y="0.304688" />
+                        <point x="1" y="1" />
+                        <point x="0.59375" y="0.976563" />
+                    </collision-poly>
+                </tile>
+                <tile id="121">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.59375" />
+                        <point x="0" y="0.609375" />
+                    </collision-poly>
+                </tile>
+                <tile id="122">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.390625" y="0.015625" />
+                        <point x="0.375" y="0.578125" />
+                        <point x="0.0078125" y="0.625" />
+                    </collision-poly>
+                </tile>
+                <tile id="123">
+                    <collision-poly>
+                        <point x="0.507813" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.992188" y="0.640625" />
+                        <point x="0.570313" y="0.648438" />
+                    </collision-poly>
+                </tile>
+                <tile id="125">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.617188" />
+                        <point x="0" y="0.578125" />
+                    </collision-poly>
+                </tile>
+                <tile id="143">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.351563" y="0.0078125" />
+                        <point x="0.328125" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
         <object-type name="L2_TileMap" sid="680612887392408">
             <plugin id="Tilemap" />
@@ -204,6 +332,14 @@
             <texture />
         </object-type>
         <object-type name="TiledBackground3" sid="980287867078020">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground4" sid="447838171344947">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground5" sid="720995065854830">
             <plugin id="TiledBg" />
             <texture />
         </object-type>
