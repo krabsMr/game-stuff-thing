@@ -2,5 +2,10 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>E_Level_1</name>
-    <events />
+    <events>
+        <event-block sid="432440156353357">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
 </c2eventsheet>

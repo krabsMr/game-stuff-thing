@@ -24,6 +24,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -299,7 +300,88 @@
         <object-type name="L2_TileMap" sid="680612887392408">
             <plugin id="Tilemap" />
             <texture original-source="P:\Pixel Art\tile map 1,2.png" />
-            <tiles />
+            <tiles>
+                <tile id="82">
+                    <collision-poly>
+                        <point x="0.601563" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.609375" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="83">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.367188" y="0.0234375" />
+                        <point x="0.335938" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="97">
+                    <collision-poly>
+                        <point x="0.515625" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.53125" y="0.984375" />
+                    </collision-poly>
+                </tile>
+                <tile id="98">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.367188" y="0" />
+                        <point x="0.34375" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="106">
+                    <collision-poly>
+                        <point x="0" y="0.289063" />
+                        <point x="1" y="0.289063" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="108">
+                    <collision-poly>
+                        <point x="0.578125" y="0.304688" />
+                        <point x="0.96875" y="0.320313" />
+                        <point x="1" y="1" />
+                        <point x="0.570313" y="0.96875" />
+                    </collision-poly>
+                </tile>
+                <tile id="109">
+                    <collision-poly>
+                        <point x="0" y="0.351563" />
+                        <point x="1" y="0.328125" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="122">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.351563" y="0" />
+                        <point x="0.382813" y="0.625" />
+                        <point x="0" y="0.617188" />
+                    </collision-poly>
+                </tile>
+                <tile id="123">
+                    <collision-poly>
+                        <point x="0.570313" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.648438" />
+                        <point x="0.609375" y="0.59375" />
+                    </collision-poly>
+                </tile>
+                <tile id="124">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.59375" />
+                        <point x="0" y="0.609375" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
         <object-type name="L3_TileMap" sid="268364059749545">
             <plugin id="Tilemap" />
@@ -311,7 +393,7 @@
             <texture original-source="P:\Pixel Art\tile map 3,4.png" />
             <tiles />
         </object-type>
-        <object-type name="Sprite" sid="387415266455925">
+        <object-type name="Player" sid="387415266455925">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="959729448294659">
@@ -319,6 +401,9 @@
                 </behavior-type>
                 <behavior-type name="8Direction" sid="156556355592358">
                     <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="653969897073676">
+                    <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -342,6 +427,22 @@
         <object-type name="TiledBackground5" sid="720995065854830">
             <plugin id="TiledBg" />
             <texture />
+        </object-type>
+        <object-type name="Sprite" sid="456753851695529">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638848142774112" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EnemyMain" sid="543921485603178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779813983071349" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
