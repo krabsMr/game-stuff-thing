@@ -176,7 +176,51 @@
         <object-type name="L2_TileMap" sid="680612887392408">
             <plugin id="Tilemap" />
             <texture original-source="P:\Pixel Art\tile map 1,2.png" />
-            <tiles />
+            <tiles>
+                <tile id="60">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.992188" y="0.664063" />
+                        <point x="0.640625" y="0.433594" />
+                        <point x="0.289063" y="0.546875" />
+                        <point x="0.265625" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="76">
+                    <collision-poly>
+                        <point x="0.242188" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.492188" />
+                        <point x="0.265625" y="0.515625" />
+                    </collision-poly>
+                </tile>
+                <tile id="77">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.8125" y="0" />
+                        <point x="0.828125" y="0.507813" />
+                        <point x="0" y="0.53125" />
+                    </collision-poly>
+                </tile>
+                <tile id="111">
+                    <collision-poly>
+                        <point x="0.0078125" y="0.273438" />
+                        <point x="0.984375" y="0.414063" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="126">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.609375" />
+                        <point x="0" y="0.578125" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
         <object-type name="L3_TileMap" sid="268364059749545">
             <plugin id="Tilemap" />
@@ -279,7 +323,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="605394829472561" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="P:\wrestling\ICE BRIDGE.png" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="P:\wrestling\ICE BRIDGE.png" />
                 </animation>
             </animation-folder>
         </object-type>
