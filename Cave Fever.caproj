@@ -171,7 +171,48 @@
         <object-type name="L1_TileMap" sid="118111704580129">
             <plugin id="Tilemap" />
             <texture original-source="P:\Pixel Art\tile map 1,2.png" />
-            <tiles />
+            <tiles>
+                <tile id="76">
+                    <collision-poly>
+                        <point x="0.320313" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.515625" />
+                        <point x="0.296875" y="0.484375" />
+                    </collision-poly>
+                </tile>
+                <tile id="77">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.8125" y="0" />
+                        <point x="0.8125" y="0.5" />
+                        <point x="0" y="0.554688" />
+                    </collision-poly>
+                </tile>
+                <tile id="90">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.203125" y="0" />
+                        <point x="0.203125" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="126">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.59375" />
+                        <point x="0" y="0.609375" />
+                    </collision-poly>
+                </tile>
+                <tile id="128">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.398438" y="0" />
+                        <point x="0.367188" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
         <object-type name="L2_TileMap" sid="680612887392408">
             <plugin id="Tilemap" />
