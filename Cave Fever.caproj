@@ -368,6 +368,268 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite3" sid="863821909493551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513564658638088" speed="5">
+                    <frame duration="1" hotspotX="0.588235" hotspotY="0.470588" original-source="P:\wrestling\Rock Bridge.png">
+                        <collision-poly>
+                            <point x="0.147059" y="0.0294118" />
+                            <point x="0.588235" y="0.0294118" />
+                            <point x="0.970588" y="0.0882353" />
+                            <point x="0.970588" y="0.852941" />
+                            <point x="0.588235" y="0.970588" />
+                            <point x="0.0882353" y="0.970588" />
+                            <point x="0.0294118" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="159162645439489">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266761805993182" speed="5">
+                    <frame duration="1" hotspotX="1.30769" hotspotY="1.88889" original-source="P:\wrestling\Please.png">
+                        <collision-poly>
+                            <point x="0.025641" y="0.037037" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="769188684786864">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832976353477578" speed="5">
+                    <frame duration="1" hotspotX="0.285714" hotspotY="0.0930233" original-source="P:\wrestling\Please.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.285714" y="0.0232558" />
+                            <point x="0.392857" y="0.0232558" />
+                            <point x="0.964286" y="0.0930233" />
+                            <point x="0.964286" y="0.534884" />
+                            <point x="0.285714" y="0.976744" />
+                            <point x="0.0357143" y="0.255814" />
+                            <point x="0.0357143" y="0.0930233" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="524658178356727">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897884412942061" speed="5">
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.534562" original-source="C:\Users\lrigsby\Downloads\Walking Forward 1.png">
+                        <collision-poly>
+                            <point x="0.08" y="0.364055" />
+                            <point x="0.573333" y="0.0138249" />
+                            <point x="0.946667" y="0.40553" />
+                            <point x="0.973333" y="0.534562" />
+                            <point x="0.8" y="0.612903" />
+                            <point x="0.573333" y="0.981567" />
+                            <point x="0.306667" y="0.626728" />
+                            <point x="0.0266667" y="0.534562" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.605263" hotspotY="0.463519" original-source="C:\Users\lrigsby\Downloads\Walking Forward 2.png">
+                        <collision-poly>
+                            <point x="0.118421" y="0.304721" />
+                            <point x="0.605263" y="0" />
+                            <point x="0.973684" y="0.343348" />
+                            <point x="1" y="0.463519" />
+                            <point x="0.828947" y="0.536481" />
+                            <point x="0.605263" y="0.879828" />
+                            <point x="0.342105" y="0.549356" />
+                            <point x="0.0657895" y="0.463519" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.522936" original-source="C:\Users\lrigsby\Downloads\Walking Forward 3.png">
+                        <collision-poly>
+                            <point x="0.0617284" y="0.353211" />
+                            <point x="0.518519" y="0.00458716" />
+                            <point x="0.864198" y="0.394495" />
+                            <point x="0.888889" y="0.522936" />
+                            <point x="0.728395" y="0.600917" />
+                            <point x="0.518519" y="0.96789" />
+                            <point x="0.271605" y="0.614679" />
+                            <point x="0.0123457" y="0.522936" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.513158" hotspotY="0.547619" original-source="C:\Users\lrigsby\Downloads\Walking Forward 4.png">
+                        <collision-poly>
+                            <point x="0.0263158" y="0.371429" />
+                            <point x="0.513158" y="0.00952381" />
+                            <point x="0.881579" y="0.414286" />
+                            <point x="0.907895" y="0.547619" />
+                            <point x="0.736842" y="0.628571" />
+                            <point x="0.513158" y="1" />
+                            <point x="0.25" y="0.642857" />
+                            <point x="0" y="0.547619" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.463768" hotspotY="0.511013" original-source="C:\Users\lrigsby\Downloads\Walking Forward 5.png">
+                        <collision-poly>
+                            <point x="0" y="0.348018" />
+                            <point x="0.463768" y="0.0132159" />
+                            <point x="0.869565" y="0.387665" />
+                            <point x="0.898551" y="0.511013" />
+                            <point x="0.710145" y="0.585903" />
+                            <point x="0.463768" y="0.938326" />
+                            <point x="0.173913" y="0.599119" />
+                            <point x="0" y="0.511013" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.536232" hotspotY="0.48" original-source="C:\Users\lrigsby\Downloads\Walking Forward 6.png">
+                        <collision-poly>
+                            <point x="0" y="0.315556" />
+                            <point x="0.536232" y="0" />
+                            <point x="0.942029" y="0.355556" />
+                            <point x="0.971014" y="0.48" />
+                            <point x="0.782609" y="0.555556" />
+                            <point x="0.536232" y="0.911111" />
+                            <point x="0.246377" y="0.568889" />
+                            <point x="0" y="0.48" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.569444" hotspotY="0.502326" original-source="C:\Users\lrigsby\Downloads\Walking Forward 7.png">
+                        <collision-poly>
+                            <point x="0.0555556" y="0.330233" />
+                            <point x="0.569444" y="0" />
+                            <point x="0.958333" y="0.372093" />
+                            <point x="0.986111" y="0.502326" />
+                            <point x="0.805556" y="0.581395" />
+                            <point x="0.569444" y="0.953488" />
+                            <point x="0.291667" y="0.595349" />
+                            <point x="0" y="0.502326" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.567568" hotspotY="0.537383" original-source="C:\Users\lrigsby\Downloads\Walking Forward 8.png">
+                        <collision-poly>
+                            <point x="0.0675676" y="0.364486" />
+                            <point x="0.567568" y="0.00934579" />
+                            <point x="0.945946" y="0.406542" />
+                            <point x="0.972973" y="0.537383" />
+                            <point x="0.797297" y="0.616822" />
+                            <point x="0.567568" y="0.990654" />
+                            <point x="0.297297" y="0.630841" />
+                            <point x="0.0135135" y="0.537383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="231714858376550">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="193273913922473" speed="5">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.508772" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left1.png">
+                        <collision-poly>
+                            <point x="0.390625" y="0.429825" />
+                            <point x="0.53125" y="0.0175439" />
+                            <point x="0.765625" y="0.377193" />
+                            <point x="0.875" y="0.508772" />
+                            <point x="0.6875" y="0.596491" />
+                            <point x="0.53125" y="0.710526" />
+                            <point x="0.203125" y="0.692982" />
+                            <point x="0.375" y="0.508772" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.457627" hotspotY="0.517544" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left2.png">
+                        <collision-poly>
+                            <point x="0.305085" y="0.438596" />
+                            <point x="0.457627" y="0.0263158" />
+                            <point x="0.711864" y="0.385965" />
+                            <point x="0.830508" y="0.517544" />
+                            <point x="0.627119" y="0.605263" />
+                            <point x="0.457627" y="0.719298" />
+                            <point x="0.101695" y="0.701754" />
+                            <point x="0.288136" y="0.517544" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.454545" hotspotY="0.517544" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left3.png">
+                        <collision-poly>
+                            <point x="0.290909" y="0.438596" />
+                            <point x="0.454545" y="0.0263158" />
+                            <point x="0.727273" y="0.385965" />
+                            <point x="0.854545" y="0.517544" />
+                            <point x="0.636364" y="0.605263" />
+                            <point x="0.454545" y="0.719298" />
+                            <point x="0.0727273" y="0.701754" />
+                            <point x="0.272727" y="0.517544" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.551724" hotspotY="0.504348" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left4.png">
+                        <collision-poly>
+                            <point x="0.241379" y="0.426087" />
+                            <point x="0.551724" y="0.0173913" />
+                            <point x="1" y="0.373913" />
+                            <point x="1" y="0.504348" />
+                            <point x="0.896552" y="0.591304" />
+                            <point x="0.551724" y="0.704348" />
+                            <point x="0" y="0.686957" />
+                            <point x="0.206897" y="0.504348" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.54" hotspotY="0.508772" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left5.png">
+                        <collision-poly>
+                            <point x="0.36" y="0.429825" />
+                            <point x="0.54" y="0.0175439" />
+                            <point x="0.84" y="0.377193" />
+                            <point x="0.98" y="0.508772" />
+                            <point x="0.74" y="0.596491" />
+                            <point x="0.54" y="0.710526" />
+                            <point x="0.12" y="0.692982" />
+                            <point x="0.34" y="0.508772" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.372093" hotspotY="0.5" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left7.png">
+                        <collision-poly>
+                            <point x="0.162791" y="0.421053" />
+                            <point x="0.372093" y="0.00877193" />
+                            <point x="0.72093" y="0.368421" />
+                            <point x="0.883721" y="0.5" />
+                            <point x="0.604651" y="0.587719" />
+                            <point x="0.372093" y="0.701754" />
+                            <point x="0" y="0.684211" />
+                            <point x="0.139535" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.372093" hotspotY="0.5" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left7.png">
+                        <collision-poly>
+                            <point x="0.162791" y="0.421053" />
+                            <point x="0.372093" y="0.00877193" />
+                            <point x="0.72093" y="0.368421" />
+                            <point x="0.883721" y="0.5" />
+                            <point x="0.604651" y="0.587719" />
+                            <point x="0.372093" y="0.701754" />
+                            <point x="0" y="0.684211" />
+                            <point x="0.139535" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504425" original-source="C:\Users\lrigsby\Downloads\Protagonist walking right, left8.png">
+                        <collision-poly>
+                            <point x="0.235294" y="0.424779" />
+                            <point x="0.5" y="0.00884956" />
+                            <point x="0.941176" y="0.371681" />
+                            <point x="1" y="0.504425" />
+                            <point x="0.794118" y="0.59292" />
+                            <point x="0.5" y="0.707965" />
+                            <point x="0" y="0.690265" />
+                            <point x="0.205882" y="0.504425" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
