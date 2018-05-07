@@ -179,8 +179,8 @@
                         <width>63.935165405</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -201,8 +201,8 @@
                         <width>64.198226929</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -223,8 +223,8 @@
                         <width>64.804107666</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -245,8 +245,8 @@
                         <width>63.935165405</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -267,8 +267,8 @@
                         <width>64.253463745</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -289,8 +289,8 @@
                         <width>64.582626343</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -311,8 +311,8 @@
                         <width>65.478012085</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
-                        <hotspotX>1.#QNAN</hotspotX>
-                        <hotspotY>1.#QNAN</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -333,6 +333,7 @@
                         <width>63.935165405</width>
                         <height>63.906112671</height>
                         <depth>0</depth>
+<<<<<<< HEAD
                         <hotspotX>1.#QNAN</hotspotX>
                         <hotspotY>1.#QNAN</hotspotY>
 <<<<<<< HEAD
@@ -514,6 +515,10 @@
                         <hotspotX>0.588235319</hotspotX>
                         <hotspotY>0.470588237</hotspotY>
 >>>>>>> b2ec23f8b83f9fa3426d2c114abdd6aefa1beddc
+=======
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+>>>>>>> parent of eb7d3e2... idk what this is
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
